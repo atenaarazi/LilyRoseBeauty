@@ -37,5 +37,6 @@ document.querySelectorAll(".featured-image-1").forEach((image_1) => {
         const src = image_1.getAttribute("src");
         document.querySelector(".big-image-1").src =src ;
     });
+    document.querySelectorAll(".featured-image-2").forEach(image_3)
 });
 
